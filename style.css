@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;   
+}
+
+body, html {
+    background-color:rgb(200, 217, 226);
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    width: 1350px;
+    height: 400px;
+    background-color: rgb(155, 212, 193);
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#formulario {
+    position: absolute;
+    top: 233%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: rgb(154, 199, 236);
+    width: 490px;
+    height: 2950px ;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(65, 63, 63);
+}
+
+header#imagem{
+    display: block;
+    background: rgb(135, 211, 241) url(../imagens/logo.jpg) ;
+    background-size: cover;
+    height: 320px;
+    width: 480px;    
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:rgb(38, 38, 112); 
+    
+}
+p#subtitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:rgb(38, 38, 112);
+}
+
+section#formulario {
+    display: block;
+    padding: 5px;
+}
+
+p, label {
+    font-weight: bold;
+    color:  rgb(57, 149, 199);
+}
+
+form > input[type=submit] {
+    font-family: 1em;
+    height: 30px;
+    width: 49.5%;
+    background-color: rgb(57, 149, 199);
+    border: none;
+    color: white;
+    border-radius: 5px;
+   
+}
+form > input[type=reset] {
+    font-family: 1em;
+    height: 30px;
+    width: 50%;
+    background-color: rgb(57, 149, 199);
+    border: none;
+    color:white;
+    border-radius:5px;
+}
+
+form > input[type=submit]:hover {
+    background-color: rgb(4, 101, 153);
+}
+
+form > input[type=reset]:hover {
+    background-color: rgb(4, 101, 153);
+}
+
+
+input#iname {
+        width: 100%;
+        height: 30px;
+        margin-top: 5px;
+       
+}
+
+input#ilastname {
+        width: 100%;
+        height: 30px;
+        margin-top: 5px;
+        
+}
+
+input#iemail{
+        width: 100%;
+        height: 30px;
+        margin-top: 5px;
+}
+input#iphone {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+}
+
+input#iandress{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+}
+input#icity{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+}
+input#iexpectedcleaningdate{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+}
+
+input#inumero {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+}
+
+textarea#img {
+    width: 100%; 
+    margin-top: 5px;
+}
+
+form > input {
+    margin-top: 5px;
+}

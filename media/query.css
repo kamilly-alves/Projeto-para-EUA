@@ -1,0 +1,49 @@
+@charset "UFT-8";
+
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    section#formulario {
+        width: 90vw;
+        background-image: url(../imagens/logo.jpg)  no-repeat;
+        
+    } 
+    section#formulario, header#imagem {
+            display: block;
+            margin-left: auto;
+            margin-right: auto }
+    }
+    form > input[type=submit] {
+        font-family: 1em;
+        height: 30px;
+        width: 49.5%;
+        background-color: rgb(57, 149, 199);
+        border: none;
+        color: white;
+        border-radius: 5px;
+       
+    }
+    form > input[type=reset] {
+        font-family: 1em;
+        height: 30px;
+        width: 49%;
+        background-color: rgb(57, 149, 199);
+        border: none;
+        color: white;
+        border-radius: 5px;
+       
+    }
+ @media screen and (min-width: 992px){
+    section#formulario {
+        width: 990px;
+    }
+    section#formulario, header#imagem {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+     }
+     section#formulario {
+      text-align: left;
+     }
+}
+    
+    
