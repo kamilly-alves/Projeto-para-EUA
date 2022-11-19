@@ -40,7 +40,7 @@ section#formulario {
 
 header#imagem{
     display: block;
-    background: rgb(135, 211, 241) url(../imagens/logo.jpg) ;
+    background: url(imagens/logo.jpg) ;
     background-size: cover;
     height: 320px;
     width: 480px;    
