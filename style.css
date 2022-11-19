@@ -12,11 +12,6 @@ body, html {
     height: 100vh;
     width: 100vw;
 }
-header{
-    width: 1350px;
-    height: 400px;
-    background-color: rgb(155, 212, 193);
-}
 
 main {
     position: relative;
@@ -39,6 +34,7 @@ section#formulario {
 }
 
 header#imagem{
+
     display: block;
     background: url(imagens/logo.jpg) ;
     background-size: cover;
